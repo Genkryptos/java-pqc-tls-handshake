@@ -1,0 +1,571 @@
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.524 IST|SSLContextImpl.java:413|System property jdk.tls.client.cipherSuites is set to 'null'
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.530 IST|SSLContextImpl.java:413|System property jdk.tls.server.cipherSuites is set to 'null'
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.538 IST|SSLCipher.java:423|jdk.tls.keyLimits:  entry = AES/GCM/NoPadding KeyUpdate 2^37. AES/GCM/NOPADDING:KEYUPDATE = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.539 IST|SSLCipher.java:423|jdk.tls.keyLimits:  entry =  ChaCha20-Poly1305 KeyUpdate 2^37. CHACHA20-POLY1305:KEYUPDATE = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.541 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.541 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.541 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.542 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.543 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.543 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.543 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.543 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.543 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.543 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.544 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.545 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_DH_anon_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_DH_anon_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_DH_anon_WITH_AES_256_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_DH_anon_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_DH_anon_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.546 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_DH_anon_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_DH_anon_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_DH_anon_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.547 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DH_anon_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DH_anon_WITH_3DES_EDE_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.548 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_WITH_RC4_128_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_WITH_RC4_128_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_RC4_128_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_RC4_128_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_WITH_RC4_128_MD5
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_WITH_RC4_128_MD5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_anon_WITH_RC4_128_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_anon_WITH_RC4_128_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DH_anon_WITH_RC4_128_MD5
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.549 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DH_anon_WITH_RC4_128_MD5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_WITH_DES_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_WITH_DES_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DHE_RSA_WITH_DES_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DHE_RSA_WITH_DES_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DHE_DSS_WITH_DES_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DHE_DSS_WITH_DES_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DH_anon_WITH_DES_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DH_anon_WITH_DES_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.550 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_EXPORT_WITH_RC4_40_MD5
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_EXPORT_WITH_RC4_40_MD5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_NULL_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_NULL_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_NULL_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDHE_RSA_WITH_NULL_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_NULL_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_WITH_NULL_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_WITH_NULL_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_NULL_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_NULL_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.551 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_NULL_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_NULL_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_anon_WITH_NULL_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_anon_WITH_NULL_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: SSL_RSA_WITH_NULL_MD5
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: SSL_RSA_WITH_NULL_MD5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.552 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.553 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.554 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.555 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.556 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:387|Ignore disabled cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.557 IST|SSLContextImpl.java:396|Ignore unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.593 IST|X509TrustManagerImpl.java:82|adding as trusted certificates (
+  "certificate" : {
+    "version"            : "v3",
+    "serial number"      : "48:f2:ad:8d:dc:cc:56:49",
+    "signature algorithm": "SHA384withECDSA",
+    "issuer"             : "CN=localhost",
+    "not before"         : "2026-10-25 02:58:09.000 IST",
+    "not  after"         : "2027-10-25 02:58:09.000 IST",
+    "subject"            : "CN=localhost",
+    "subject public key" : "EC",
+    "extensions"         : [
+      {
+        ObjectId: 2.5.29.17 Criticality=false
+        SubjectAlternativeName [
+          DNSName: localhost
+          IPAddress: 127.0.0.1
+        ]
+      },
+      {
+        ObjectId: 2.5.29.14 Criticality=false
+        SubjectKeyIdentifier [
+        KeyIdentifier [
+        0000: 00 77 66 C9 13 40 D8 4A   3D 67 3F 00 AD 55 17 C9  .wf..@.J=g?..U..
+        0010: BF AA BC B3                                        ....
+        ]
+        ]
+      }
+    ]}
+)
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.593 IST|SSLContextImpl.java:107|trigger seeding of SecureRandom
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.593 IST|SSLContextImpl.java:111|done seeding of SecureRandom
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.597 IST|SSLConfiguration.java:571|System property jdk.tls.client.SignatureSchemes is set to 'null'
+CLIENT java.version: 25.0.5
+CLIENT jdk.tls.namedGroups: x25519
+CLIENT enabled named groups: [x25519]
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.610 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.611 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.611 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.611 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.611 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.611 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.611 IST|HandshakeContext.java:339|Ignore unsupported cipher suite: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.613 IST|SSLExtension.java:824|System property jdk.tls.client.disableExtensions is set to 'null'
+javax.net.ssl|WARNING|30|main|2026-10-25 03:30:55.614 IST|ServerNameExtension.java:265|Unable to indicate server name
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.614 IST|SSLExtensions.java:281|Ignore, context unavailable extension: server_name
+javax.net.ssl|INFO|30|main|2026-10-25 03:30:55.614 IST|AlpnExtension.java:174|No available application protocols
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.614 IST|SSLExtensions.java:281|Ignore, context unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.614 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_pkcs1_sha256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.614 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_pkcs1_sha384
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.614 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_pkcs1_sha512
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: dsa_sha256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: ecdsa_sha224
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_sha224
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: dsa_sha224
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: ecdsa_sha1
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_pkcs1_sha1
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: dsa_sha1
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_md5
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: dsa_sha256
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: ecdsa_sha224
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_sha224
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: dsa_sha224
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: dsa_sha1
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.615 IST|SignatureScheme.java:450|Ignore inactive signature scheme: rsa_md5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.615 IST|SSLExtensions.java:281|Ignore, context unavailable extension: cookie
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.618 IST|PreSharedKeyExtension.java:657|No session to resume.
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.618 IST|SSLExtensions.java:281|Ignore, context unavailable extension: pre_shared_key
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.619 IST|ClientHello.java:638|Produced ClientHello handshake message (
+"ClientHello": {
+  "client version"      : "TLSv1.2",
+  "random"              : "4C70AF2E9C9F42958E77BE64635827C7E2B07EF0941207FF2A4F6736D05AC17B",
+  "session id"          : "8869D092CAC1F16CC47BE96BEC43F791556A55FA963D4075447BB99E2BF018E2",
+  "cipher suites"       : "[TLS_AES_256_GCM_SHA384(0x1302), TLS_AES_128_GCM_SHA256(0x1301), TLS_CHACHA20_POLY1305_SHA256(0x1303)]",
+  "compression methods" : "00",
+  "extensions"          : [
+    "status_request (5)": {
+      "certificate status type": ocsp
+      "OCSP status request": {
+        "responder_id": <empty>
+        "request extensions": {
+          <empty>
+        }
+      }
+    },
+    "supported_groups (10)": {
+      "named groups": [x25519]
+    },
+    "signature_algorithms (13)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512]
+    },
+    "supported_versions (43)": {
+      "versions": [TLSv1.3]
+    },
+    "psk_key_exchange_modes (45)": {
+      "ke_modes": [psk_dhe_ke]
+    },
+    "signature_algorithms_cert (50)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, ecdsa_sha1, rsa_pkcs1_sha1]
+    },
+    "key_share (51)": {
+      "client_shares": [  
+        {
+          "named group": x25519
+          "key_exchange": {
+            0000: CE 21 F2 B1 15 A6 A3 DA   05 52 86 ED BD ED 46 EB  .!.......R....F.
+            0010: 26 46 37 6F 4C EF 73 5D   F3 4B 67 22 CD 85 FE 47  &F7oL.s].Kg"...G
+          }
+        },
+      ]
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.619 IST|SSLSocketOutputRecord.java:261|WRITE: TLSv1.3 handshake, length = 221
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.631 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 handshake, length = 122
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.632 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 handshake, length = 122
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.632 IST|ServerHello.java:932|Consuming ServerHello handshake message (
+"ServerHello": {
+  "server version"      : "TLSv1.2",
+  "random"              : "66E4DC880CD6A441D7BCD41C4787674020681EAEF9A18E479639E21A3D69D11E",
+  "session id"          : "8869D092CAC1F16CC47BE96BEC43F791556A55FA963D4075447BB99E2BF018E2",
+  "cipher suite"        : "TLS_AES_256_GCM_SHA384(0x1302)",
+  "compression methods" : "00",
+  "extensions"          : [
+    "supported_versions (43)": {
+      "selected version": [TLSv1.3]
+    },
+    "key_share (51)": {
+      "server_share": {
+        "named group": x25519
+        "key_exchange": {
+          0000: 58 75 35 36 A8 43 C6 1E   35 44 1F 2A 10 99 9A A5  Xu56.C..5D.*....
+          0010: 1A 57 AE 72 B3 68 7A FA   E7 4C 57 5C 5B 37 A1 17  .W.r.hz..LW\[7..
+        }
+      },
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.632 IST|SSLExtensions.java:213|Consumed extension: supported_versions
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.632 IST|ServerHello.java:1032|Negotiated protocol version: TLSv1.3
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.633 IST|SSLExtensions.java:213|Consumed extension: supported_versions
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.635 IST|SSLExtensions.java:213|Consumed extension: key_share
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.635 IST|PreSharedKeyExtension.java:929|Handling pre_shared_key absence.
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.635 IST|SSLSessionImpl.java:227|Session initialized:  Session(1792879255635|TLS_AES_256_GCM_SHA384)
+javax.net.ssl|WARNING|30|main|2026-10-25 03:30:55.635 IST|SSLExtensions.java:236|Ignore impact of unsupported extension: supported_versions
+javax.net.ssl|WARNING|30|main|2026-10-25 03:30:55.635 IST|SSLExtensions.java:236|Ignore impact of unsupported extension: key_share
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.635 IST|SSLExtensions.java:228|Ignore unavailable extension: pre_shared_key
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.638 IST|SSLCipher.java:1827|KeyLimit read side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.639 IST|SSLCipher.java:1988|KeyLimit write side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.639 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 change_cipher_spec, length = 1
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.639 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 change_cipher_spec, length = 1
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.639 IST|ChangeCipherSpec.java:240|Consuming ChangeCipherSpec message
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.639 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 application_data, length = 67
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.639 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 application_data, length = 67
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|EncryptedExtensions.java:172|Consuming EncryptedExtensions handshake message (
+"EncryptedExtensions": [
+  "supported_groups (10)": {
+    "named groups": [X25519MLKEM768, x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+  }
+]
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:194|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:194|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:213|Consumed extension: supported_groups
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:228|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:228|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|WARNING|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:236|Ignore impact of unsupported extension: supported_groups
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLExtensions.java:228|Ignore unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 application_data, length = 397
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.640 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 application_data, length = 397
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.641 IST|CertificateMessage.java:1112|Consuming server Certificate handshake message (
+"Certificate": {
+  "certificate_request_context": "",
+  "certificate_list": [  
+  {
+    "certificate" : {
+      "version"            : "v3",
+      "serial number"      : "48:f2:ad:8d:dc:cc:56:49",
+      "signature algorithm": "SHA384withECDSA",
+      "issuer"             : "CN=localhost",
+      "not before"         : "2026-10-25 02:58:09.000 IST",
+      "not  after"         : "2027-10-25 02:58:09.000 IST",
+      "subject"            : "CN=localhost",
+      "subject public key" : "EC",
+      "extensions"         : [
+        {
+          ObjectId: 2.5.29.17 Criticality=false
+          SubjectAlternativeName [
+            DNSName: localhost
+            IPAddress: 127.0.0.1
+          ]
+        },
+        {
+          ObjectId: 2.5.29.14 Criticality=false
+          SubjectKeyIdentifier [
+          KeyIdentifier [
+          0000: 00 77 66 C9 13 40 D8 4A   3D 67 3F 00 AD 55 17 C9  .wf..@.J=g?..U..
+          0010: BF AA BC B3                                        ....
+          ]
+          ]
+        }
+      ]}
+    "extensions": {
+      <no extension>
+    }
+  },
+]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.641 IST|SSLExtensions.java:194|Ignore unavailable extension: status_request
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.642 IST|X509TrustManagerImpl.java:246|Found trusted certificate (
+  "certificate" : {
+    "version"            : "v3",
+    "serial number"      : "48:f2:ad:8d:dc:cc:56:49",
+    "signature algorithm": "SHA384withECDSA",
+    "issuer"             : "CN=localhost",
+    "not before"         : "2026-10-25 02:58:09.000 IST",
+    "not  after"         : "2027-10-25 02:58:09.000 IST",
+    "subject"            : "CN=localhost",
+    "subject public key" : "EC",
+    "extensions"         : [
+      {
+        ObjectId: 2.5.29.17 Criticality=false
+        SubjectAlternativeName [
+          DNSName: localhost
+          IPAddress: 127.0.0.1
+        ]
+      },
+      {
+        ObjectId: 2.5.29.14 Criticality=false
+        SubjectKeyIdentifier [
+        KeyIdentifier [
+        0000: 00 77 66 C9 13 40 D8 4A   3D 67 3F 00 AD 55 17 C9  .wf..@.J=g?..U..
+        0010: BF AA BC B3                                        ....
+        ]
+        ]
+      }
+    ]}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.643 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 application_data, length = 111
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.643 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 application_data, length = 111
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.660 IST|CertificateVerify.java:1177|Consuming CertificateVerify handshake message (
+"CertificateVerify": {
+  "signature algorithm": ecdsa_secp256r1_sha256
+  "signature": {
+    0000: 30 44 02 20 7E DE 2D C5   87 3D 20 89 8F 7A 18 4C  0D. ..-..= ..z.L
+    0010: 0E DF DD A5 08 5F 9A 99   96 0C 97 BA B0 CC 94 04  ....._..........
+    0020: 65 59 38 6F 02 20 01 FB   D5 C6 E9 86 20 54 CC 20  eY8o. ...... T. 
+    0030: 83 E7 90 3D FE 3E 4E B7   C5 EE 93 71 54 82 27 60  ...=.>N....qT.'`
+    0040: 94 BE CA 01 72 F3                                  ....r.
+  }
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.660 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 application_data, length = 85
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.660 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 application_data, length = 85
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.661 IST|Finished.java:924|Consuming server Finished handshake message (
+"Finished": {
+  "verify data": {
+    0000: 18 23 1D 83 10 A9 D7 0C   F2 DB 5F 0F 54 D3 7C DC  .#........_.T...
+    0010: 33 17 EC CD 5F C1 F5 34   66 4D 2E D7 32 A2 46 0C  3..._..4fM..2.F.
+    0020: 58 19 B6 6D BD 54 F4 33   E9 9D 46 A6 F7 60 AA 5F  X..m.T.3..F..`._
+  }
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.661 IST|SSLCipher.java:1827|KeyLimit read side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.662 IST|Finished.java:685|Produced client Finished handshake message (
+"Finished": {
+  "verify data": {
+    0000: 1B 1F 00 A2 E5 B4 90 E6   8C 2D C1 DE 6B 49 FA 1E  .........-..kI..
+    0010: 98 02 71 58 FF DB 8F ED   DB D3 4B 4A A2 48 D2 27  ..qX......KJ.H.'
+    0020: 2E B5 30 17 F6 B0 34 E0   17 24 FA 7C 58 A8 FA 11  ..0...4..$..X...
+  }
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.662 IST|SSLSocketOutputRecord.java:261|WRITE: TLSv1.3 handshake, length = 52
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.662 IST|SSLCipher.java:1988|KeyLimit write side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+HANDSHAKE OK protocol=TLSv1.3 cipherSuite=TLS_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.664 IST|SSLSocketOutputRecord.java:334|WRITE: TLSv1.3 application_data, length = 33
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.665 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 application_data, length = 216
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.665 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 application_data, length = 216
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.666 IST|NewSessionTicket.java:583|Consuming NewSessionTicket message (
+"NewSessionTicket": {
+  "ticket_lifetime"      : "86,400",
+  "ticket_age_add"       : "<omitted>",
+  "ticket_nonce"         : "01",
+  "ticket"               : {
+    0000: A5 EF DC 87 69 56 97 E2   32 9E CA 4E F9 48 74 3E  ....iV..2..N.Ht>
+    0010: 94 93 CA 2C 00 67 ED BB   41 F4 77 83 AD 2D 33 00  ...,.g..A.w..-3.
+    0020: DC F1 CF 62 40 88 F6 28   C7 09 32 A3 EB 8F 24 9E  ...b@..(..2...$.
+    0030: 07 A3 7F F7 6E 0C 01 6F   55 25 06 A2 FF A1 84 59  ....n..oU%.....Y
+    0040: AB CE 74 B7 9A A2 D2 76   71 4C E5 63 BA 63 50 09  ..t....vqL.c.cP.
+    0050: D4 50 0E 52 70 6B 8A 29   86 01 66 42 42 7A 7F 3D  .P.Rpk.)..fBBz.=
+    0060: 57 8A 39 A9 CC FF C1 29   20 A4 8A 44 51 53 59 2D  W.9....) ..DQSY-
+    0070: 7D FE B5 90 CB 2A CB C9   17 FC 09 73 53 29 A7 01  .....*.....sS)..
+    0080: FC 20 DC F7 F6 A3 3D B9   C9 43 01 7C 52 89 DC 3A  . ....=..C..R..:
+    0090: 2F CE 3C 17 CC FA 29 54   74 B8 29 8C 5B 8B 36 B5  /.<...)Tt.).[.6.
+    00A0: 63 47 67 CE 02 
+  }  "extensions"           : [
+    <no extension>
+  ]
+}
+)
+javax.net.ssl|ALL|30|main|2026-10-25 03:30:55.666 IST|SSLSessionImpl.java:260|Session initialized:  Session(1792879255635|TLS_AES_256_GCM_SHA384)
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.666 IST|NewSessionTicket.java:641|MultiNST PSK (Server): A5EFDC87695697E2329ECA4EF948743E
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.666 IST|SSLSocketInputRecord.java:214|READ: TLSv1.2 application_data, length = 66
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.666 IST|SSLSocketInputRecord.java:247|READ: TLSv1.2 application_data, length = 66
+CLIENT received: hello from server on Java 25.0.5
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.666 IST|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.667 IST|SSLSocketOutputRecord.java:71|WRITE: TLSv1.3 alert(user_canceled), length = 2
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.667 IST|SSLSocketOutputRecord.java:71|WRITE: TLSv1.3 alert(close_notify), length = 2
+javax.net.ssl|DEBUG|30|main|2026-10-25 03:30:55.667 IST|SSLSocketImpl.java:1777|close the SSL connection (passive)

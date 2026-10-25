@@ -1,0 +1,242 @@
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:12.424 IST|SSLCipher.java:426|jdk.tls.keyLimits:  entry = AES/GCM/NoPadding KeyUpdate 2^37. AES/GCM/NOPADDING:KEYUPDATE = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:12.430 IST|SSLCipher.java:426|jdk.tls.keyLimits:  entry =  ChaCha20-Poly1305 KeyUpdate 2^37. CHACHA20-POLY1305:KEYUPDATE = 137438953472
+SERVER java.version: 27.0.1.0.3
+SERVER jdk.tls.namedGroups: (not set)
+SERVER enabled named groups: [X25519MLKEM768, x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096]
+LISTENING on port 18443
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.346 IST|ClientHello.java:798|Consuming ClientHello handshake message (
+"ClientHello": {
+  "client version"      : "TLSv1.2",
+  "random"              : "41C31FEE69E230FA4C860F0473E775842B0D9BC2E582CBF3B0B7F3C91234A14F",
+  "session id"          : "D46A68B169CB4D5E63EB3B3BF2007E17683FC65607CFAE18F4630A5DB2AFFD14",
+  "cipher suites"       : "[TLS_AES_256_GCM_SHA384(0x1302), TLS_AES_128_GCM_SHA256(0x1301), TLS_CHACHA20_POLY1305_SHA256(0x1303)]",
+  "compression methods" : "00",
+  "extensions"          : [
+    "status_request (5)": {
+      "certificate status type": ocsp
+      "OCSP status request": {
+        "responder_id": <empty>
+        "request extensions": {
+          <empty>
+        }
+      }
+    },
+    "supported_groups (10)": {
+      "named groups": [x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+    },
+    "signature_algorithms (13)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, ecdsa_sha1, rsa_pkcs1_sha1]
+    },
+    "supported_versions (43)": {
+      "versions": [TLSv1.3]
+    },
+    "psk_key_exchange_modes (45)": {
+      "ke_modes": [psk_dhe_ke]
+    },
+    "signature_algorithms_cert (50)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, ecdsa_sha1, rsa_pkcs1_sha1]
+    },
+    "key_share (51)": {
+      "client_shares": [  
+        {
+          "named group": x25519
+          "key_exchange": {
+            0000: 39 E8 75 D1 6F 8C 19 A7   38 59 05 08 7A F4 4B 99  9.u.o...8Y..z.K.
+            0010: 08 06 A9 5B BB 28 00 83   C5 29 86 9B 73 2A EC 44  ...[.(...)..s*.D
+          }
+        },
+        {
+          "named group": secp256r1
+          "key_exchange": {
+            0000: 04 C8 CA D3 D3 73 CC C7   BA 14 E9 87 21 EA 3E A4  .....s......!.>.
+            0010: D4 A9 9F 21 4D 1E 22 25   A1 9D 58 80 32 F7 B3 BD  ...!M."%..X.2...
+            0020: 6A AC F3 67 5B 84 80 B1   E0 C2 57 4B 82 F6 D7 A0  j..g[.....WK....
+            0030: FE AA 7D E1 04 5E 07 3F   23 0C F5 CE A4 5A D0 F7  .....^.?#....Z..
+            0040: D7 
+          }
+        },
+      ]
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|SSLExtensions.java:218|Consumed extension: supported_versions
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|ClientHello.java:828|Negotiated protocol version: TLSv1.3
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|SSLExtensions.java:218|Consumed extension: psk_key_exchange_modes
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|PreSharedKeyExtension.java:847|Handling pre_shared_key absence.
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|SSLExtensions.java:198|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|SSLExtensions.java:198|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|SSLExtensions.java:218|Consumed extension: status_request
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.347 IST|SSLExtensions.java:218|Consumed extension: supported_groups
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.348 IST|SSLExtensions.java:198|Ignore unavailable extension: compress_certificate
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.348 IST|SSLExtensions.java:218|Consumed extension: signature_algorithms
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.348 IST|SSLExtensions.java:198|Ignore unavailable extension: cookie
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.348 IST|SSLExtensions.java:198|Ignore unavailable extension: certificate_authorities
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.348 IST|SSLExtensions.java:218|Consumed extension: signature_algorithms_cert
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.350 IST|SSLExtensions.java:218|Consumed extension: key_share
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.351 IST|SSLExtensions.java:234|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.351 IST|SSLExtensions.java:234|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.351 IST|SSLExtensions.java:243|Ignore impact of unsupported extension: status_request
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.351 IST|SSLExtensions.java:243|Ignore impact of unsupported extension: supported_groups
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.351 IST|SSLExtensions.java:234|Ignore unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.351 IST|SSLExtensions.java:234|Ignore unavailable extension: compress_certificate
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.351 IST|SignatureScheme.java:494|Unsupported signature scheme: rsa_pkcs1_sha256
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SignatureScheme.java:494|Unsupported signature scheme: rsa_pkcs1_sha384
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SignatureScheme.java:494|Unsupported signature scheme: rsa_pkcs1_sha512
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SignatureScheme.java:494|Unsupported signature scheme: ecdsa_sha1
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SignatureScheme.java:494|Unsupported signature scheme: rsa_pkcs1_sha1
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:252|Populated with extension: signature_algorithms
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:243|Ignore impact of unsupported extension: supported_versions
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:234|Ignore unavailable extension: cookie
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:243|Ignore impact of unsupported extension: psk_key_exchange_modes
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:234|Ignore unavailable extension: certificate_authorities
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:252|Populated with extension: signature_algorithms_cert
+javax.net.ssl|WARNING|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:243|Ignore impact of unsupported extension: key_share
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.352 IST|SSLExtensions.java:234|Ignore unavailable extension: quic_transport_parameters
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.352 IST|ServerHello.java:775|use cipher suite TLS_AES_256_GCM_SHA384
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.355 IST|SSLExtensions.java:291|Ignore, context unavailable extension: pre_shared_key
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.355 IST|ServerHello.java:604|Produced ServerHello handshake message (
+"ServerHello": {
+  "server version"      : "TLSv1.2",
+  "random"              : "5047A2436167483D1C2D62328BD1E294D1F72EF882BF93D7E1C9427428E25F77",
+  "session id"          : "D46A68B169CB4D5E63EB3B3BF2007E17683FC65607CFAE18F4630A5DB2AFFD14",
+  "cipher suite"        : "TLS_AES_256_GCM_SHA384(0x1302)",
+  "compression methods" : "00",
+  "extensions"          : [
+    "supported_versions (43)": {
+      "selected version": [TLSv1.3]
+    },
+    "key_share (51)": {
+      "server_share": {
+        "named group": x25519
+        "key_exchange": {
+          0000: 27 E5 86 14 B4 11 CE 06   AE B2 BF 07 EB 62 67 57  '............bgW
+          0010: 37 84 F9 E1 04 58 6F 4F   C5 46 A8 AA DE 5D 04 12  7....XoO.F...]..
+        }
+      },
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.358 IST|SSLCipher.java:1846|KeyLimit read side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.359 IST|SSLCipher.java:2008|KeyLimit write side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|TRACE|30|main|2026-10-25 02:58:13.359 IST|ServerNameExtension.java:540|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.359 IST|SSLExtensions.java:291|Ignore, context unavailable extension: server_name
+javax.net.ssl|TRACE|30|main|2026-10-25 02:58:13.359 IST|MaxFragExtension.java:466|Ignore unavailable max_fragment_length extension
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.359 IST|SSLExtensions.java:291|Ignore, context unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.359 IST|AlpnExtension.java:390|Ignore unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.359 IST|SSLExtensions.java:291|Ignore, context unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.359 IST|SSLExtensions.java:291|Ignore, context unavailable extension: quic_transport_parameters
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.360 IST|EncryptedExtensions.java:138|Produced EncryptedExtensions message (
+"EncryptedExtensions": [
+  "supported_groups (10)": {
+    "named groups": [X25519MLKEM768, x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096]
+  }
+]
+)
+javax.net.ssl|TRACE|30|main|2026-10-25 02:58:13.361 IST|X509Authentication.java:300|X509KeyManager class: sun.security.ssl.SunX509KeyManagerImpl
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.362 IST|StatusResponseManager.java:616|Staping disabled or is a resumed session
+javax.net.ssl|TRACE|30|main|2026-10-25 02:58:13.362 IST|CertStatusExtension.java:1128|Stapling is disabled for this connection
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.362 IST|SSLExtensions.java:291|Ignore, context unavailable extension: status_request
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.363 IST|CertificateMessage.java:995|Produced server Certificate message (
+"Certificate": {
+  "certificate_request_context": "",
+  "certificate_list": [  
+  {
+    "certificate" : {
+      "version"            : "v3",
+      "serial number"      : "48:f2:ad:8d:dc:cc:56:49",
+      "signature algorithm": "SHA384withECDSA",
+      "issuer"             : "CN=localhost",
+      "not before"         : "2026-10-25 02:58:09.000 IST",
+      "not  after"         : "2027-10-25 02:58:09.000 IST",
+      "subject"            : "CN=localhost",
+      "subject public key" : "EC",
+      "extensions"         : [
+        {
+          ObjectId: 2.5.29.17 Criticality=false
+          SubjectAlternativeName [
+            DNSName: localhost
+            IPAddress: 127.0.0.1
+          ]
+        },
+        {
+          ObjectId: 2.5.29.14 Criticality=false
+          SubjectKeyIdentifier [
+          KeyIdentifier [
+          0000: 00 77 66 C9 13 40 D8 4A   3D 67 3F 00 AD 55 17 C9  .wf..@.J=g?..U..
+          0010: BF AA BC B3                                        ....
+          ]
+          ]
+        }
+      ]}
+    "extensions": {
+      <no extension>
+    }
+  },
+]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.364 IST|CertificateVerify.java:1121|Produced server CertificateVerify handshake message (
+"CertificateVerify": {
+  "signature algorithm": ecdsa_secp256r1_sha256
+  "signature": {
+    0000: 30 44 02 20 76 97 02 FE   31 67 98 AB 93 A1 8E 04  0D. v...1g......
+    0010: 19 68 F1 E4 B1 51 4F 7D   AB B6 B4 1F 84 1D 32 73  .h...QO.......2s
+    0020: 9E 4C 41 49 02 20 13 06   E3 3C 07 B1 F0 D8 18 35  .LAI. ...<.....5
+    0030: 95 84 94 06 6A 7E 38 F7   AB A4 2B 1A B2 66 AD 9F  ....j.8...+..f..
+    0040: FC C5 44 95 B3 5B                                  ..D..[
+  }
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.365 IST|Finished.java:782|Produced server Finished handshake message (
+"Finished": {
+  "verify data": {
+    0000: DB BE 6F CE 23 6E BF 6B   BC D7 20 4D 7D FE FF 79  ..o.#n.k.. M...y
+    0010: E5 4A 6B 9A 7D 41 60 C5   7B 9B DB 24 64 50 D7 D3  .Jk..A`....$dP..
+    0020: 6A 9F E0 53 ED 5F DF 51   E5 0D 7D 86 EA B0 DC 4E  j..S._.Q.......N
+  }
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.366 IST|SSLCipher.java:2008|KeyLimit write side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.366 IST|ChangeCipherSpec.java:241|Consuming ChangeCipherSpec message
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.372 IST|Finished.java:1077|Consuming client Finished handshake message (
+"Finished": {
+  "verify data": {
+    0000: 52 F7 38 85 E2 A3 0C 45   7F F6 2B AE 47 58 24 86  R.8....E..+.GX$.
+    0010: 63 54 46 67 28 15 B7 4D   77 94 B5 E6 BD E6 B8 78  cTFg(..Mw......x
+    0020: 24 D8 B2 2A E5 8C A1 B5   1A C5 A1 3E B3 FD C4 C8  $..*.......>....
+  }
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.372 IST|SSLCipher.java:1846|KeyLimit read side: algorithm = AES/GCM/NoPadding:KEYUPDATE
+countdown value = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.374 IST|NewSessionTicket.java:469|Produced NewSessionTicket stateless post-handshake message (
+"NewSessionTicket": {
+  "ticket_lifetime"      : "86,400",
+  "ticket_age_add"       : "<omitted>",
+  "ticket_nonce"         : "01",
+  "ticket"               : {
+    0000: 7B 97 6F 80 FF 98 E6 BE   EC 2F 18 45 BA 37 E0 FE  ..o....../.E.7..
+    0010: 00 80 C4 8E 36 7D 78 35   CB C1 AA F8 97 FD 15 01  ....6.x5........
+    0020: AE 6A 0D CD FE C5 F2 1A   96 C2 0A 9E 63 C7 9C 60  .j..........c..`
+    0030: CB 81 28 16 9B DE BF F7   35 2B 98 F7 F5 50 3A 4F  ..(.....5+...P:O
+    0040: B2 8B C3 92 ED 12 BC E0   5F 2F A4 4A B3 C3 E0 9C  ........_/.J....
+    0050: 67 32 F4 0E 0E 68 39 EE   37 41 9A 9A 7D DB 2B C1  g2...h9.7A....+.
+    0060: 28 49 4E 4B 1E DD B0 25   F1 34 36 F2 1E 68 1D 47  (INK...%.46..h.G
+    0070: DD 94 9E 89 C2 67 BD 2A   09 04 DA 93 B4 53 2D 67  .....g.*.....S-g
+    0080: 23 EB 8F 12 1E F4 7A C5   4C 66 DE 2F 48 40 CB EE  #.....z.Lf./H@..
+    0090: F5 A1 8E 16 46 3F 0E 2B   70 6C 83 4A C5 38 EB 3B  ....F?.+pl.J.8.;
+    00A0: 28 
+  }  "extensions"           : [
+    <no extension>
+  ]
+}
+)
+HANDSHAKE OK protocol=TLSv1.3 cipherSuite=TLS_AES_256_GCM_SHA384
+SERVER received: hello from client on Java 21.0.5
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.375 IST|SSLSocketImpl.java:577|duplex close of SSLSocket
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:13.376 IST|SSLSocketImpl.java:1763|close the SSL connection (passive)

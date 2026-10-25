@@ -1,0 +1,98 @@
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.874 IST|SSLCipher.java:432|jdk.tls.keyLimits:  entry = AES/GCM/NoPadding KeyUpdate 2^37. AES/GCM/NOPADDING:KEYUPDATE = 137438953472
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.879 IST|SSLCipher.java:432|jdk.tls.keyLimits:  entry =  ChaCha20-Poly1305 KeyUpdate 2^37. CHACHA20-POLY1305:KEYUPDATE = 137438953472
+CLIENT java.version: 21.0.5
+CLIENT jdk.tls.namedGroups: (not set)
+CLIENT enabled named groups: [x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+javax.net.ssl|WARNING|10|main|2026-10-25 02:58:15.929 IST|ServerNameExtension.java:265|Unable to indicate server name
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.929 IST|SSLExtensions.java:272|Ignore, context unavailable extension: server_name
+javax.net.ssl|INFO|10|main|2026-10-25 02:58:15.930 IST|AlpnExtension.java:179|No available application protocols
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.930 IST|SSLExtensions.java:272|Ignore, context unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.930 IST|SSLExtensions.java:272|Ignore, context unavailable extension: cookie
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.951 IST|PreSharedKeyExtension.java:659|No session to resume.
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.951 IST|SSLExtensions.java:272|Ignore, context unavailable extension: pre_shared_key
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.955 IST|ClientHello.java:638|Produced ClientHello handshake message (
+"ClientHello": {
+  "client version"      : "TLSv1.2",
+  "random"              : "EBE0735F8873D25BD341641942AFA1CF5B5D394A0F623D34962DCBDF3D8A4C1B",
+  "session id"          : "19AA170A4D54A76EC36FB59C4B36C76BEB6C388FB2A6DC8FDC2A691E1A5D723B",
+  "cipher suites"       : "[TLS_AES_256_GCM_SHA384(0x1302), TLS_AES_128_GCM_SHA256(0x1301), TLS_CHACHA20_POLY1305_SHA256(0x1303)]",
+  "compression methods" : "00",
+  "extensions"          : [
+    "status_request (5)": {
+      "certificate status type": ocsp
+      "OCSP status request": {
+        "responder_id": <empty>
+        "request extensions": {
+          <empty>
+        }
+      }
+    },
+    "supported_groups (10)": {
+      "named groups": [x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+    },
+    "signature_algorithms (13)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, ecdsa_sha1, rsa_pkcs1_sha1]
+    },
+    "supported_versions (43)": {
+      "versions": [TLSv1.3]
+    },
+    "psk_key_exchange_modes (45)": {
+      "ke_modes": [psk_dhe_ke]
+    },
+    "signature_algorithms_cert (50)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, ecdsa_sha1, rsa_pkcs1_sha1]
+    },
+    "key_share (51)": {
+      "client_shares": [  
+        {
+          "named group": x25519
+          "key_exchange": {
+            0000: 90 C7 4B 45 4C AA 91 5C   48 44 8F BE BA 24 FC 30  ..KEL..\HD...$.0
+            0010: 89 A0 23 14 30 4F 9B D1   2C 69 CA F2 03 20 14 64  ..#.0O..,i... .d
+          }
+        },
+        {
+          "named group": secp256r1
+          "key_exchange": {
+            0000: 04 BC 97 D4 60 ED 9D F4   CF F9 5D 10 45 21 0A E0  ....`.....].E!..
+            0010: 13 DD FC 37 B0 72 7E CE   C1 76 6C 26 53 3D 8C 52  ...7.r...vl&S=.R
+            0020: 84 A3 25 AE DF 24 0A A7   A1 0E 56 1E 26 DA 40 AE  ..%..$....V.&.@.
+            0030: 24 3F BE 7C 54 B1 AD E8   C4 64 15 8E 10 47 BC 12  $?..T....d...G..
+            0040: 2B 
+          }
+        },
+      ]
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.966 IST|Alert.java:232|Received alert message (
+"Alert": {
+  "level"      : "fatal",
+  "description": "unexpected_message"
+}
+)
+javax.net.ssl|ERROR|10|main|2026-10-25 02:58:15.966 IST|TransportContext.java:375|Fatal (UNEXPECTED_MESSAGE): Received fatal alert: unexpected_message (
+"throwable" : {
+  javax.net.ssl.SSLProtocolException: Received fatal alert: unexpected_message
+  	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:128)
+  	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+  	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+  	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+  	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+  	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+  	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+  	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+  	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+  	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+  	at Client.main(Client.java:60)
+  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+  	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:484)
+  	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:208)
+  	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:135)}
+
+)
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.966 IST|SSLSocketImpl.java:1749|close the underlying socket
+javax.net.ssl|DEBUG|10|main|2026-10-25 02:58:15.967 IST|SSLSocketImpl.java:1775|close the SSL connection (passive)
+HANDSHAKE FAILED: javax.net.ssl.SSLProtocolException: Received fatal alert: unexpected_message

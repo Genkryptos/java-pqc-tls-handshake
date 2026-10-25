@@ -1,0 +1,3 @@
+LISTENING on port 19443 -> 127.0.0.1:18443
+client->server: first TLS record type=22 (handshake) length=1461 bytes (+5 byte record header); total=1713 bytes
+server->client: first TLS record type=22 (handshake) length=122 bytes (+5 byte record header); total=1185 bytes

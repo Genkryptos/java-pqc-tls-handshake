@@ -1,0 +1,116 @@
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.259 IST|SSLCipher.java:426|jdk.tls.keyLimits:  entry = AES/GCM/NoPadding KeyUpdate 2^37. AES/GCM/NOPADDING:KEYUPDATE = 137438953472
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.265 IST|SSLCipher.java:426|jdk.tls.keyLimits:  entry =  ChaCha20-Poly1305 KeyUpdate 2^37. CHACHA20-POLY1305:KEYUPDATE = 137438953472
+SERVER java.version: 27.0.1.0.3
+SERVER jdk.tls.namedGroups: X25519MLKEM768
+SERVER enabled named groups: [X25519MLKEM768]
+LISTENING on port 18443
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.947 IST|ClientHello.java:798|Consuming ClientHello handshake message (
+"ClientHello": {
+  "client version"      : "TLSv1.2",
+  "random"              : "8DBB338FDF438A646ACBCDFE8B322190C89B7A1C55D60163582511AD5348ECA4",
+  "session id"          : "3B528747AD2A966BA3101DAD445C8F751E8FE25D28B953DECFF50D7977FF32A6",
+  "cipher suites"       : "[TLS_AES_256_GCM_SHA384(0x1302), TLS_AES_128_GCM_SHA256(0x1301), TLS_CHACHA20_POLY1305_SHA256(0x1303)]",
+  "compression methods" : "00",
+  "extensions"          : [
+    "status_request (5)": {
+      "certificate status type": ocsp
+      "OCSP status request": {
+        "responder_id": <empty>
+        "request extensions": {
+          <empty>
+        }
+      }
+    },
+    "supported_groups (10)": {
+      "named groups": [x25519, secp256r1, secp384r1, secp521r1, x448, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+    },
+    "signature_algorithms (13)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512]
+    },
+    "supported_versions (43)": {
+      "versions": [TLSv1.3]
+    },
+    "psk_key_exchange_modes (45)": {
+      "ke_modes": [psk_dhe_ke]
+    },
+    "signature_algorithms_cert (50)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, ed25519, ed448, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, ecdsa_sha1, rsa_pkcs1_sha1]
+    },
+    "key_share (51)": {
+      "client_shares": [  
+        {
+          "named group": x25519
+          "key_exchange": {
+            0000: 90 F6 08 5D 3B 0F 48 C8   1B 15 20 5E 6E 50 47 50  ...];.H... ^nPGP
+            0010: 46 5F 0A 07 A3 6A 6B 3A   3C 9F D5 38 F7 5F C4 1F  F_...jk:<..8._..
+          }
+        },
+        {
+          "named group": secp256r1
+          "key_exchange": {
+            0000: 04 A9 15 DF 0D 95 9E 12   09 4A 99 B4 B0 52 13 F7  .........J...R..
+            0010: 0C E9 76 AB 5B FD 4F DA   6E A7 7A AA 90 78 02 AF  ..v.[.O.n.z..x..
+            0020: A0 80 4E C4 6C 0F 79 EA   3C 04 BB 07 81 2D 87 1E  ..N.l.y.<....-..
+            0030: 86 E2 0E 71 92 F8 84 56   EA AD 44 AA 59 E8 14 F0  ...q...V..D.Y...
+            0040: F7 
+          }
+        },
+      ]
+    }
+  ]
+}
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:218|Consumed extension: supported_versions
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|ClientHello.java:828|Negotiated protocol version: TLSv1.3
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:218|Consumed extension: psk_key_exchange_modes
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|PreSharedKeyExtension.java:847|Handling pre_shared_key absence.
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:198|Ignore unavailable extension: server_name
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:198|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:218|Consumed extension: status_request
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:218|Consumed extension: supported_groups
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.948 IST|SSLExtensions.java:198|Ignore unavailable extension: compress_certificate
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|SSLExtensions.java:218|Consumed extension: signature_algorithms
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|SSLExtensions.java:198|Ignore unavailable extension: cookie
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|SSLExtensions.java:198|Ignore unavailable extension: certificate_authorities
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|SSLExtensions.java:218|Consumed extension: signature_algorithms_cert
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|KeyShareExtension.java:362|Ignore unsupported named group: x25519
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|KeyShareExtension.java:362|Ignore unsupported named group: secp256r1
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|SSLExtensions.java:218|Consumed extension: key_share
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.949 IST|ServerHello.java:775|use cipher suite TLS_AES_256_GCM_SHA384
+javax.net.ssl|ERROR|30|main|2026-10-25 02:58:32.950 IST|TransportContext.java:367|Fatal (UNEXPECTED_MESSAGE): No common named group (
+"throwable" : {
+  javax.net.ssl.SSLProtocolException: (unexpected_message) No common named group
+  	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:128)
+  	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+  	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:362)
+  	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:318)
+  	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:309)
+  	at java.base/sun.security.ssl.KeyShareExtension$HRRKeyShareProducer.produce(KeyShareExtension.java:878)
+  	at java.base/sun.security.ssl.SSLExtension.produce(SSLExtension.java:641)
+  	at java.base/sun.security.ssl.SSLExtensions.produce(SSLExtensions.java:283)
+  	at java.base/sun.security.ssl.ServerHello$T13HelloRetryRequestProducer.produce(ServerHello.java:843)
+  	at java.base/sun.security.ssl.SSLHandshake.produce(SSLHandshake.java:480)
+  	at java.base/sun.security.ssl.ClientHello$T13ClientHelloConsumer.goHelloRetryRequest(ClientHello.java:1197)
+  	at java.base/sun.security.ssl.ClientHello$T13ClientHelloConsumer.consume(ClientHello.java:1185)
+  	at java.base/sun.security.ssl.ClientHello$ClientHelloConsumer.onClientHello(ClientHello.java:845)
+  	at java.base/sun.security.ssl.ClientHello$ClientHelloConsumer.consume(ClientHello.java:802)
+  	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:436)
+  	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:485)
+  	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:456)
+  	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:198)
+  	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:173)
+  	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+  	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1424)
+  	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+  	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+  	at Server.main(Server.java:49)
+  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+  	at jdk.compiler/com.sun.tools.javac.launcher.SourceLauncher.execute(SourceLauncher.java:268)
+  	at jdk.compiler/com.sun.tools.javac.launcher.SourceLauncher.run(SourceLauncher.java:139)
+  	at jdk.compiler/com.sun.tools.javac.launcher.SourceLauncher.main(SourceLauncher.java:77)}
+
+)
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.951 IST|SSLSocketImpl.java:1737|close the underlying socket
+javax.net.ssl|DEBUG|30|main|2026-10-25 02:58:32.951 IST|SSLSocketImpl.java:1763|close the SSL connection (passive)
+HANDSHAKE FAILED: javax.net.ssl.SSLProtocolException: (unexpected_message) No common named group
